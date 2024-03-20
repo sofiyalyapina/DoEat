@@ -172,3 +172,37 @@ body {
     color: var(--white);
     font-size: 22px;
 }
+
+.footer{
+    border-top: 1px solid rgb(77, 77, 77);
+    padding: 60px 0;
+}
+
+.flex-footer{
+    display: flex;
+    gap: 80px;
+}
+
+.nav-footer li{
+    padding-bottom: 24px;
+}
+
+.nav-footer a{
+    color: var(--white);
+}
+
+.social-footer li{
+    padding-bottom: 6px;
+}
+
+.social-footer a{
+    color: var(--white);
+}
+
+.basket-footer a{
+    color: var(--green);
+    text-decoration: underline;
+}
+.row{
+    margin-left: auto;
+}

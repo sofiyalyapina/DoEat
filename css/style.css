@@ -56,3 +56,56 @@ body {
 .social a {
     color: var(--white);
 }
+
+.bg-wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-main {
+    font-family: "Whisper", cursive;
+    font-size: 200px;
+    font-weight: 400;
+    color: var(--white);
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    padding-bottom: 318px;
+}
+
+.info-flex{
+    text-align: center;
+}
+
+.title-info{
+    font-size: 30px;
+}
+
+.text-info{
+    font-size: 22px;
+}
+
+.button-info{
+    width: 200px;
+    background-color: var(--green);
+    padding: 6px 0;
+    margin-top: 34px;
+}
+
+.card-flex{
+    width: 133px;
+    border: 1px solid var(--green);
+    text-align: center;
+    padding: 27px 0;
+    margin-bottom: 24px;
+}
+
+.text-card{
+    font-size: 30px;
+    color: var(--green);
+}

@@ -1,0 +1,232 @@
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --green: #7CB508;
+}
+
+
+body {
+    background-color: var(--black);
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header-nav-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 101px;
+}
+
+.logo a {
+    color: var(--white);
+    font-family: "Whisper", cursive;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.header-nav {
+    margin-left: 140px;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+    margin: 0 auto;
+}
+
+.header-nav a {
+    color: var(--white);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.social a {
+    color: var(--white);
+}
+
+.section_1{
+    margin-bottom: 150px;
+}
+
+.title{
+    color: var(--white);
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 40px;
+}
+
+
+.cards-reviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-reviews{
+    display: flex;
+    gap: 60px;
+    border: 1px solid var(--green);
+    width: 699px;
+    padding: 36px 31px;
+}
+
+.right blockquote{
+    width: 404px;
+    color: var(--white);
+}
+
+.right .stars{
+    margin-bottom: 23px;
+}
+
+.left .name-person{
+    margin-top: 12px;
+    color: var(--white);
+    font-size: 22px;
+}
+
+
+
+.footer{
+    border-top: 1px solid rgb(77, 77, 77);
+    padding: 60px 0;
+}
+
+.flex-footer{
+    display: flex;
+    gap: 80px;
+}
+
+.nav-footer li{
+    padding-bottom: 24px;
+}
+
+.nav-footer a{
+    color: var(--white);
+}
+
+.social-footer li{
+    padding-bottom: 6px;
+}
+
+.social-footer a{
+    color: var(--white);
+}
+
+.basket-footer a{
+    color: var(--green);
+    text-decoration: underline;
+}
+.row{
+    margin-left: auto;
+}
+
+
+
+
+
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}

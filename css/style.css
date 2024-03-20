@@ -1,0 +1,58 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --green: #7CB508;
+}
+
+
+body {
+    background-color: var(--black);
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header-nav-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 101px;
+}
+
+.logo a {
+    color: var(--white);
+    font-family: "Whisper", cursive;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.header-nav {
+    margin-left: 140px;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+    margin: 0 auto;
+}
+
+.header-nav a {
+    color: var(--white);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.social a {
+    color: var(--white);
+}
